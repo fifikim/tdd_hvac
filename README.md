@@ -7,8 +7,9 @@ Your team is tasked with writing the thermostat code that will control the eleme
 ## Installation & Setup
 - Requirements: [node](https://nodejs.org/en/)
 - Clone this repo & install dependencies:
-`npm -g i`
+`npm install`
 - Run the app:
+`npm i -g` 
 `hvac`
 - Run tests:
 `npm test`
