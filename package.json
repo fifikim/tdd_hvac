@@ -1,0 +1,21 @@
+{
+  "name": "test_doubles_hvac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "hvac": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "babel-jest": "^29.5.0"
+  }
+}
