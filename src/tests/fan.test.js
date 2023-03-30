@@ -11,5 +11,14 @@ it("should create", () => {
 });
 
 describe("initial properties", () => {
-    // write these tests
+    it("should be off", () => {
+        expect(fan.on).toBeFalsy(); 
+    });
+
+    it("should not be exploded", () => {
+        expect(fan.exploded).toBeFalsy();
+    });
 });
+
+
+

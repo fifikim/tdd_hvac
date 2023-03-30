@@ -12,10 +12,10 @@ it("should create", () => {
 
 describe("initial properties", () => {
     it("should be off", () => {
-        
+        expect(cooler.on).toBeFalsy(); 
     });
 
     it("should not be exploded", () => {
-        
+        expect(cooler.exploded).toBeFalsy();
     });
 });

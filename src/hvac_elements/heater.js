@@ -6,6 +6,5 @@ export default class Heater extends HvacElement {
     this.name = "heater";
   }
 
-  // add methods
-  
+  // add methods?
 }

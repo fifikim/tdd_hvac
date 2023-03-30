@@ -11,5 +11,11 @@ it("should create", () => {
 });
 
 describe("initial properties", () => {
-    // write these tests
+    it("should be off", () => {
+        expect(heater.on).toBeFalsy(); 
+    });
+
+    it("should not be exploded", () => {
+        expect(heater.exploded).toBeFalsy();
+    });
 });

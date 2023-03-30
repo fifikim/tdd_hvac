@@ -6,6 +6,5 @@ export default class Fan extends HvacElement {
     this.name = "fan";
   }
 
-  // add methods
-  
+  // add methods?
 }
